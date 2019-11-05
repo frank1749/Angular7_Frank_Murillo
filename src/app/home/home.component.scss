@@ -177,9 +177,9 @@ $backtext1: #ebf2ff;
 .slick-current {
   opacity: 1;
 }
-.slick-slide img {
-    height: auto;
-    width: 100%;    
+img.img-slide-data {
+    width: 96%;
+    margin: 0 2%;
 }
 
 /* Init Responsive */
