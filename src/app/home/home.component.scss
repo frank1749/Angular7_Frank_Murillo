@@ -27,7 +27,7 @@ $backtext1: #ebf2ff;
 }
 .main-menu li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .main-menu a{
     color: $icon-header1;
@@ -144,6 +144,13 @@ $backtext1: #ebf2ff;
     position: relative;
     text-align: center;
 }
+.flote-slider{
+    display: block;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
 
 /* Sliders Style */
 .slider {
@@ -169,4 +176,65 @@ $backtext1: #ebf2ff;
 }
 .slick-current {
   opacity: 1;
+}
+.slick-slide img {
+    height: auto;
+    width: 100%;    
+}
+
+/* Init Responsive */
+@media screen and (max-width:1200px) {
+	.sect-plans .art1{
+        text-align: center;
+        width: 100%;
+    }
+    .sect-plans .art2{
+        margin: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:990px) {
+    .logo-site{
+        text-align: center;
+        width: 100%;
+    }
+    .main-menu{
+        width: 100%;
+    }
+    .main-menu ul{
+        text-align: center;
+    }
+    .logo-site img{
+        height: 120px;
+    }
+}
+@media screen and (max-width:770px) {
+    .sect-tit{
+        width: 100% !important;
+    }
+    .sect-banner figure{
+        width: 100%;
+    }
+    .plan1{
+        display: block;
+        margin-bottom: 10%;
+        padding: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:630px) {
+    .regular{
+        display: none;
+    }
+    .section-2 article{
+        margin: 2%;
+        width: 100%;
+    }
+    .main-menu li{
+        display: block;
+        margin-left: 0;
+        margin: 5px;
+        width: 100%;
+    }
 }
