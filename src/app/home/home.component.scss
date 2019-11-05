@@ -1,0 +1,172 @@
+$icon-header1: #77838f;
+$color-btn: #377dff;
+$color-btn2: #00C9A7;
+$backtext1: #ebf2ff;
+
+.header-sect1 ul, .main-menu ul{
+    text-align: right;
+}
+.header-sect1 li {
+    color: $icon-header1;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    margin: 7px;
+}
+.header-sect1 img{
+    height: 18px;
+    width: auto;
+}
+.logo-site, .main-menu, .sect-banner section, .sect-banner figure{
+    display: inline-block;
+    width: 50%;
+}
+.logo-site img{
+    height: 90px;
+    width: auto;
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-menu a{
+    color: $icon-header1;
+}
+.login-btn{
+    background-color: #377dff;
+    border-radius: 3px;
+    color: white !important;
+    padding: 5px 10px;
+}
+.sect-banner figure img{
+    height: auto;
+    width: 100%;
+}
+.sect-banner strong{
+    color: $color-btn;
+}
+.list-banner{
+    margin: 0;
+    padding: 0;
+}
+.list-banner li{
+    display: inline-block;
+}
+.list-banner img{
+    height: 20px;
+    width: auto;
+}
+.listban-1{
+    background-color: $backtext1;
+    color: $color-btn;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.play-banner{
+    background-color: $backtext1;
+    border-radius: 50%;
+    margin-right: 10px; 
+    padding: 15px 20px;
+}
+.section-2{
+    text-align: center;
+}
+.sect-help span{
+    background-color: $backtext1;
+    color: $color-btn2;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 15px;    
+}
+.section-2 article{
+    display: inline-block;
+    margin: 0 3%;
+    width: 27.3%;
+}
+.section-2 p{
+    color: #7796a1;
+}
+.sect-phar{
+    margin: 5px auto;
+    text-align: center;
+    width: 60%;
+}
+.img-cent img{
+    height: auto;
+    width: 100%;
+}
+.sect-plans article{
+    display: inline-block;
+    vertical-align: top;
+}
+.sect-plans .art1{
+    width: 40%;
+}
+.sect-plans .art2{
+    width: 60%;
+}
+.plan1{
+    padding-right: 4%;
+}
+.plan1 img{
+    position: relative;
+    top: 30px;
+}
+.art2{
+    text-align: right;
+}
+.cont-data-plans{
+    display: inline-block;
+}
+.time-plan a{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 7px 37px;
+    text-align: center;
+}
+.month{
+    background-color: $color-btn;
+    color: white;
+}
+.year{
+    background-color: white;
+    color: #778396;
+}
+.flote-plans{
+    background-color: $color-btn2;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    left: 40px;
+    padding: 3px 1px;
+    position: relative;
+    text-align: center;
+}
+
+/* Sliders Style */
+.slider {
+    width: 100%;
+    margin: 80px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #4f8cff;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
